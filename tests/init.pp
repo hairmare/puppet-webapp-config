@@ -1,1 +1,1 @@
-include webapp-config
+webapp_config { 'test': }
