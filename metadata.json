@@ -10,6 +10,7 @@
   "checksums": {
     "Modulefile": "8cec9788a2afa4697694edb0a0f18240",
     "README": "10a3fd47615ad6019fc32277d1409236",
+    "README.rdoc": "effde2e40f6c78891c9b2a766a562c3a",
     "manifests/README.markdown": "b9970454391883e36b55137328792a55",
     "manifests/init.pp": "41a2156ad5ce3389be1a7c0b1bc6bbcd",
     "spec/README.markdown": "32a1fc0121c28aff554ef5d422b8b51e",

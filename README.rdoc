@@ -1,0 +1,22 @@
+== Module: webapp_config
+
+This modules uses gentoos webapp-config to deploy web services from
+/usr/share/webapps.
+
+=== Usage Example:
+
+You can use equery to search for apps that support this like so:
+
+  equery h vhosts
+  
+Then install a webapp using
+
+  webapp_config { 'my-great-webapp':
+    vhost => 'localhost',
+    app     => 'my-great-app',
+    version => '0.0.1',
+    depends => Package['my-great-app']
+  }
+
+Given my-great-app was a webapp supporting the vhosts flag required by
+this module. Look at the webapp_config class for more info.
